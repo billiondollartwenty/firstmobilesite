@@ -1,0 +1,70 @@
+main {
+  margin-top: 50px;
+}
+
+main h1 {
+  margin: 0 10px;
+  text-align: center;
+  font-family: "Amatic SC", cursive;
+  font-size: 65px;
+}
+
+main h2 {
+  margin: 18px 0 12px 0;
+  border-bottom: 1px solid #5c4f41;
+  font-family: "Special Elite", cursive;
+  font-size: 24px;
+}
+
+main h3 {
+  margin: 18px 0 12px 0;
+  border-bottom: 1px solid #5c4f41;
+  font-family: "Special Elite", cursive;
+  font-size: 18px;
+}
+
+main p {
+  font-family: "Roboto", sans-serif;
+  margin-top: 0;
+}
+
+body {
+  background-color:rgb(255, 255, 255);
+  color: black;
+  }
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(255, 255, 255);
+  justify-content: center;
+  margin: 70px;
+  flex-flow: row wrap;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.item {
+  background-color: #ffffff;
+  width: 400px;
+  margin: 50px;
+  text-align: left;
+  line-height: 25px;
+  font-size: 20px;
+}
+
+.group {
+  display: flex;
+  flex-direction: row; /* Aligns items in a row */
+  margin-bottom: 10px; /* Adds space between groups */
+}
+
+.item-two {
+  flex-direction: row;
+  background-color: #a35515;
+  width: 500px;
+  margin: 70px;
+  text-align: center;
+  line-height: 50px;
+  padding-top: 20px;
+}
